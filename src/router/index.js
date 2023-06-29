@@ -4,23 +4,26 @@ const router = [
     {
         patch: '/', 
         component: Item,
-        data: 'moutaint'
     },
     {
-        patch: '/beach', 
+        patch: '/:data', 
         component: Item,
-        data: 'beach'
     },
-    {
-        patch: '/bird', 
-        component: Item,
-        data: 'bird'
-    },
-    {
-        patch: '/food', 
-        component: Item,
-        data: 'food'
-    },
+    // {
+    //     patch: '/beach', 
+    //     component: Item,
+    //     data: 'beach'
+    // },
+    // {
+    //     patch: '/bird', 
+    //     component: Item,
+    //     data: 'bird'
+    // },
+    // {
+    //     patch: '/food', 
+    //     component: Item,
+    //     data: 'food'
+    // },
 ];
 
 export default router;
