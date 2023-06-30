@@ -35,7 +35,7 @@ function Item({searchTerm}) {
             </div> 
         }
         {
-            Context.images.length <= 0 && <h2 className="item-heading m-5">{params.data} pictures not found</h2>
+            Context.images.length <= 0 && !Context.isLoading && <h2 className="item-heading m-5">{params.data} pictures not found</h2>
         }
         </div>
         
